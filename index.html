@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML-Form</title>
+
+</head>
+
+<body>
+    <h1>   Ada Students feedback</h1>
+    
+     <div class="rightside">
+        <h2>fill in the blankets : </h2>
+        <div class="alert">Your message has been sent!</div>
+        <form id="contactForm">
+           
+            <p>
+                Name and surname: 
+                <input type="text" name="text" id="text" placeholder="put your name" required>
+            </p>
+            <!-- <p>
+                <label> Track</label>
+                <select name="track" id="track">
+                    <option value="ai">AI</option>
+                    <option value="web">Web</option>
+                    <option value="game">Game</option>
+                </select>
+            </p>
+             -->
+            
+                Message:
+                <input type="text" name="text2" id="text2" style="height: 100px"  placeholder="put your message here.." required>
+            </p>
+            <p class="submit-button">
+                <button type="submit">Submit</button>
+              </p>
+        </form>
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+
+
+<!-- <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script src="js/main.js"></script> -->
+
+</html>
